@@ -1,6 +1,9 @@
 # Olfactory Game for Autism - Technical Documentation
+<span id="en">
 
-## English Version  | [简体中文](#jump)
+</span>
+
+## English Version  | [简体中文](#cn)
 
 ### 1. Project Overview
 
@@ -156,9 +159,11 @@ This function is called when `awaitingNfcScan` is true.
 * **Analog Random Seed Pin:** `GPIO36` (SVP/A0)
 
 ---
-<span id="jump">
-## 中文版本 (Chinese Version)
+<span id="cn">
+
 </span>
+
+## 中文版本 (Chinese Version) | [English Version](#en)
 ### 1. 项目概述
 
 本项目描述了一种交互式设备，旨在通过一个引人入胜的嗅觉游戏，帮助自闭症谱系障碍（ASD）儿童与现实世界建立连接。该设备会释放一种气味，然后提示儿童通过扫描相应的近场通信（NFC）标签来识别它。正确或错误的识别会触发视觉（灯光）和听觉（声音）反馈。按下按钮可以开始新一轮游戏。
